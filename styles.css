@@ -19,3 +19,23 @@ header {
     margin-left: 500px;
     margin-top: 200px;
 }
+
+.jaguar {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+
+    background-image: url(jaguars.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    animation-duration: 3s;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+    from { left: 0; }
+    to { left: 80%; }
+}
