@@ -19,7 +19,7 @@ body {
     left: 500px;
     background-image: url(jaguars.png), url(purdue_p.png);
 
-    background-size: 30%, 30%;
+    background-size: 200px, 100px;
     background-position: 30% 80%, 80% 80%;
 }
 
@@ -29,7 +29,6 @@ header {
     font: bold;
     color: gold;
 }
-
 
 /*
 .maintext {
